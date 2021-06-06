@@ -7,5 +7,13 @@ jobs:
         os: [ubuntu-latest]
     runs-on: ${{ matrix.os }}
     steps:
+    - uses: actions/checkout@v2
+    - name: cache
+      uses: actions/cache@v2
+      with:
+        path: |
+          ~/cache
+          !~/cache/exclude
+        key: ${{ runner.os }}-${{ hasFiles('**/lockfiles') }}
     - name: print env
       run: env
