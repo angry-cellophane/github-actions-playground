@@ -14,6 +14,6 @@ jobs:
         path: |
           ~/cache
           !~/cache/exclude
-        key: ${{ runner.os }}-${{ hasFiles('**/lockfiles') }}
+        key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
     - name: print env
       run: env
