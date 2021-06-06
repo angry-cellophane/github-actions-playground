@@ -14,6 +14,6 @@ jobs:
         path: |
           ~/cache
           !~/cache/exclude
-        key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
+        key: ../pipelines
     - name: print env
       run: env
