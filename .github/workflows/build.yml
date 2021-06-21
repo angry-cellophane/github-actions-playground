@@ -17,3 +17,7 @@ jobs:
         key: ../pipelines
     - name: print env
       run: env
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Package
+        path: build/libs
