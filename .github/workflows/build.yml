@@ -8,3 +8,4 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
     - run: print env
+    - run: print env
