@@ -10,3 +10,4 @@ jobs:
     - run: print env
     - run: print env
     - run: print env
+    - run: print env
