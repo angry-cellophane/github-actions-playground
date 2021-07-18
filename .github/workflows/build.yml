@@ -9,5 +9,3 @@ jobs:
     steps:
     - run: print env
     - run: print env
-    - run: print env
-    - run: print env
