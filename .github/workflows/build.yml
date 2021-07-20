@@ -7,7 +7,6 @@ jobs:
         os: [ubuntu-latest]
     runs-on: ${{ matrix.os }}
     steps:
-    - run: print env
     - name: my custom action
       uses: angry-cellophane/test-github-action@v1.2
       with:
