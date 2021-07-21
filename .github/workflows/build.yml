@@ -11,3 +11,4 @@ jobs:
       uses: angry-cellophane/test-github-action@v1.2
       with:
         name: Alex
+    - run: env
