@@ -12,3 +12,4 @@ jobs:
       with:
         name: Alex
     - run: env
+    - run: env
