@@ -15,3 +15,4 @@ jobs:
     - run: env
     - run: env
     - run: env
+    - run: env
